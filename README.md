@@ -9,5 +9,7 @@
 ***third*** : 
 >in the code of FaceRecognition.py change line 16 to img = cv.imread(r'`{full path}`\pictures\testingSet\ `{the name of one of the folders you created}` \ `{one of the images on that folder}`.jpg')
 
-
+### make sure to install these packages
+- `pip install opencv-contrib-python`
+- `pip install numpy`
 ## Enjoy!
