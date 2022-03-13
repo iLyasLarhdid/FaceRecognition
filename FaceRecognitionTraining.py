@@ -2,12 +2,15 @@ import os
 import numpy as np
 import cv2 as cv
 
+DIR = r'E:\ISGA\python\OpenCv\faceDetection\pictures\trainingSet'
+
 people = []
-for i in os.listdir(r'E:\ISGA\python\OpenCv\faceDetection\pictures\trainingSet'):
+
+for i in os.listdir(DIR):
     people.append(i)
 
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
-DIR = r'E:\ISGA\python\OpenCv\faceDetection\pictures\trainingSet'
+
 
 featurs = []
 labels = []

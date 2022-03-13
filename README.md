@@ -1,10 +1,13 @@
 # Face recognition code you can use in 3 steps
 
-first : create folders inside the ./pictures folder with the names of people you want to train the AI to recognize
+***first*** : 
+>create folders inside the `./pictures/trainingSet` and `./pictures/testingSet` folders with the **names** of people you want to train the AI to recognize
 
-second : excute the FaceRecognitionTraining.py file
+***second*** :
+>in `FaceRecognitionTraining.py` on line 5 change the DIR variable to your path, then execute the file
 
-thrid : inside the code of Facerecognition.py change line 16 to img = cv.imread(r'E:\ISGA\python\OpenCv\faceDetection\pictures\testingSet\{the name of one of the folders you created}\{one of the images on that folder}.jpg')
+***third*** : 
+>in the code of FaceRecognition.py change line 16 to img = cv.imread(r'`{full path}`\pictures\testingSet\ `{the name of one of the folders you created}` \ `{one of the images on that folder}`.jpg')
 
 
-#### Enjoy!
+## Enjoy!
